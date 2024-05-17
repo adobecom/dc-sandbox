@@ -25,12 +25,11 @@
 }
 
 #CID {
-  
   width: 75%;
   max-width: 75%;
   height: auto;
   margin: auto;
-  padding: 0;
+  padding: 0 120px;
   position: relative;
   left:0;
   top: 70px;
@@ -417,13 +416,31 @@ div.how-to ol li::before{
   display: none;
 }
 
+
+.pBar-wrapper {
+  height: 8px;
+  width: 550px;
+  background: #d5d5d5;
+  margin-left: 40px;
+  margin-top: 20px;
+  border-radius: 25px;
+}
+
+.pBar {
+  position: relative;
+  height: 8px;
+  width: 0%;
+  background: #6338ee;
+  border-radius: 25px;
+}
+
 .widget-heading {
   font-size: 82px;
   font-weight: 600;
   line-height: 130%;
   margin: 0;
   padding: 0 0 0 40px;
-  width: 360px;
+  /* width: 360px; */
 }
 
 .widget-copy {

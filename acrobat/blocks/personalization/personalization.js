@@ -32,39 +32,37 @@ export default function init(element) {
   };
 
   // Load Default Personalized content
-  if (!window.doccloudPersonalization) {
-    defaultContent();
-  }
+  // if (!window.doccloudPersonalization) {
+  //   defaultContent();
+  // }
 
   window.addEventListener('Personalization:Ready', () => {
     const params = new Proxy(new URLSearchParams(window.location.search),{
       get: (searchParams, prop) => searchParams.get(prop),
     });
 
-    const getPageType = (() => {
-      const pageVerb = document.querySelector('#adobe_dc_sdk_launcher').dataset.verb;
-      const pageTypeMapped = verbMap.typeMap[pageVerb] || 'organize_pdf';
-      return pageTypeMapped;
-    });
+    // const getPageType = (() => {
+    //   const pageVerb = document.querySelector('#adobe_dc_sdk_launcher').dataset.verb;
+    //   const pageTypeMapped = verbMap.typeMap[pageVerb] || 'organize_pdf';
+    //   return pageTypeMapped;
+    // });
 
-    const getUpsellType = (() => {
-      const pageVerb = document.querySelector('#adobe_dc_sdk_launcher').dataset.verb;
-      const upsellTypeMapped = verbMap.upsellMap[pageVerb] || 'l1Verbs';
-      return upsellTypeMapped;
-    });
+    // const getUpsellType = (() => {
+    //   const pageVerb = document.querySelector('#adobe_dc_sdk_launcher').dataset.verb;
+    //   const upsellTypeMapped = verbMap.upsellMap[pageVerb] || 'l1Verbs';
+    //   return upsellTypeMapped;
+    // });
 
-    if (document.querySelectorAll('#adobe_dc_sdk_launcher').length > 0 && window.doccloudPersonalization) {
-      const pageType = getPageType();
-      const upsellType = getUpsellType();
+    if (localStorage.demo) {
+      // const pageType = getPageType();
+      // const upsellType = getUpsellType();
 
       // Conditons
-      secondConversion = window.doccloudPersonalization[pageType].can_process
-      && window.doccloudPersonalization[pageType].has_processed
-      || !doccloudPersonalization.download.can_download;
+      secondConversion = localStorage.demo;
 
-      upsell = window.doccloudPersonalization.isUpsellDisplayed[upsellType]
-      || !window.doccloudPersonalization[pageType].can_process
-      && window.doccloudPersonalization[pageType].has_processed;
+      // upsell = window.doccloudPersonalization.isUpsellDisplayed[upsellType]
+      // || !window.doccloudPersonalization[pageType].can_process
+      // && window.doccloudPersonalization[pageType].has_processed;
     }
 
     if (typeof (params.showAll) === 'string') {
@@ -84,6 +82,7 @@ export default function init(element) {
       if (tag === SECOND_CONVERSION && secondConversion || showAll) {
         ele.dataset.tag = ele.firstElementChild.textContent;
         defaultContent('live', showAll);
+        document.querySelectorAll('.section')[1].remove()
       }
 
       // Upsell
@@ -102,4 +101,9 @@ export default function init(element) {
       }
     });
   });
+
+  // Personalization Ready Event
+  const personalizationIsReady = new CustomEvent('Personalization:Ready');
+
+  window.dispatchEvent(personalizationIsReady);
 }

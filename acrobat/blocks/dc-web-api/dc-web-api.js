@@ -1,6 +1,8 @@
 /* eslint-disable guard-for-in */
 // https://console.cloud.google.com/apis/credentials?project=fircpoc
 // Bucket - https://console.cloud.google.com/storage/browser/fric-poc;tab=objects?project=fircpoc&prefix=&forceOnObjectsSortingFiltering=false
+// Personalization Ready Event
+
 const oauth2Endpoint = 'https://accounts.google.com/o/oauth2/v2/auth';
 const form = document.createElement('form');
 form.id = 'theform';
@@ -8,10 +10,10 @@ const bucketName = 'fric-poc';
 const clientID = '772441284722-r6ft7ltrikevn75dk4nbv2jsc8f1lpkh.apps.googleusercontent.com';
 const redirectURL = 'http://localhost:3000/drafts/gunn/api';
 const scope = ['https://www.googleapis.com/auth/devstorage.read_write'];
-const accessToken = 'ya29.a0AXooCgtFv8qPtpi9-Ld_yFnjnkmK39PmvXf6NnoPTQTj3KlOSb7uDyTyi7qo4xc9gESGWU9k0_o-XjABFZUgNy336KQX7o89bKROmXQPR_UiRIS1rUwkOc3mKv99VK4CeRj_7AYQwIM0pB6uMmznrOowLBHMR_qlXmgaCgYKAYsSARISFQHGX2MiGlvMQ90qajnVDYwciSwdmg0170';
+const accessToken = 'ya29.a0AXooCgtck9bTuqj2yE-WIYZRiNSKqYKeckilnfILuLRo8vE4BokrIn2Ynv0RmjGg8AXaXWzOH4zljoZcAG6WnXqMqXOEkFOcjzDexKeQg__VQbm8pxVJSb7SyA2xeVibR8SkMloDqoA7scPnxYb7bBMnwfQ4zUwRKC0aCgYKAXQSARISFQHGX2MiEURKvc9Nwvmpvu9NmONedQ0170';
 
 let encodeFileName;
-
+let percent = 0;
 const createTag = function createTag(tag, attributes, html) {
   const el = document.createElement(tag);
   if (html) {
@@ -72,7 +74,6 @@ const handleDrop = (e) => {
   }
 };
 
-
 const getToken = () => {
   form.setAttribute('method', 'GET'); // Send as a GET request.
   form.setAttribute('action', oauth2Endpoint);
@@ -98,7 +99,7 @@ const getToken = () => {
   form.submit();
 };
 
-const upload = () => {
+const upload = (pbw, pb) => {
   const file = document.getElementById('file-upload');
   const filename = file.value.split('\\').slice(-1)[0];
   console.log(filename);
@@ -107,6 +108,16 @@ const upload = () => {
   console.log(encodeFileName);
   const extension = filename.split('.').slice(-1)[0].toLocaleLowerCase();
   let contentType = null;
+
+  // Progress Bar
+  document.querySelector('.widget-button').insertAdjacentElement('afterend', pbw);
+  document.querySelector('.widget-button').remove();
+  pbw.appendChild(pb);
+  const movepb = document.querySelector('.pBar');
+  setInterval(() => {
+    percent = percent + 10;
+    movepb.style.width = `${percent}%`;
+  }, 305);
 
   // Detect Content Type
   if (extension === 'png') {
@@ -138,14 +149,14 @@ const upload = () => {
           body: bytes,
         },
       );
-
-      let result = await response.json();
+      window.localStorage.POClimit = 1;
+      const result = await response.json();
       if (result.mediaLink) {
-        alert(
-          `Success to upload ${filename}. You can access it to ${result.mediaLink}`
-        );
+        // alert(
+        //   `Success to upload ${filename}. You can access it to ${result.mediaLink}`
+        // );
       } else {
-        alert(`Failed to upload ${filename}`);
+        // alert(`Failed to upload ${filename}`);
       }
     });
 
@@ -175,6 +186,8 @@ export default function init(element) {
   const iconSecurity = createTag('div', { class: 'security-icon' });
   const icon = createTag('div', { class: 'widget-big-icon' });
   const footer = createTag('div', { class: 'widget-footer' });
+  const progressBarWrapper = createTag('div', { class: 'pBar-wrapper' });
+  const progressBar = createTag('div', { class: 'pBar' });
   if (Number(window.localStorage.limit) > 1) {
     upsell.classList.remove('hide');
     wrapper.append(upsell);
@@ -234,8 +247,7 @@ export default function init(element) {
   });
 
   button.addEventListener('change', (e) => {
-    console.log(element);
-    upload();
+    upload(progressBarWrapper, progressBar);
 
     const selectedFile = document.getElementById('file-upload').files[0];
     console.log(selectedFile);
@@ -243,12 +255,12 @@ export default function init(element) {
     setTimeout(() => {
       // window.location = `https://storage.cloud.google.com/fric-poc/${encodeFileName}`;
       window.location = `https://console.cloud.google.com/storage/browser/_details/fric-poc/${encodeFileName};tab=live_object?project=fircpoc`;
+      localStorage.demo = true
     }, 3000);
     console.log(`https://storage.cloud.google.com/fric-poc/${encodeFileName.replace(/['"]+/g, '')}`);
   });
 
   document.querySelector('.widget-sub').addEventListener('click', (e) => {
-    console.log('get tolc');
     getToken();
   });
 }
