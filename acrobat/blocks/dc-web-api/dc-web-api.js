@@ -181,7 +181,6 @@ export default function init(element) {
   const buttonLabel = createTag('label', { for: 'file-upload', class: 'widget-button' }, `${content[3].textContent}`);
   const legal = createTag('p', { class: 'widget-legal' }, `${content[4].textContent}`);
   const subTitle = createTag('p', { class: 'widget-sub' }, 'Adobe Acrobat');
-  const upsell = createTag('p', { class: 'demo-text' }, content[5].textContent);
   const iconLogo = createTag('div', { class: 'widget-icon'});
   const iconSecurity = createTag('div', { class: 'security-icon' });
   const icon = createTag('div', { class: 'widget-big-icon' });
