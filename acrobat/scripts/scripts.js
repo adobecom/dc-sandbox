@@ -343,7 +343,7 @@ replaceDotMedia(document);
  */
 const { ietf } = getLocale(locales);
 
-(async function loadPage() {
+async function loadPage() {
   // Fast track the widget
   const widgetBlock = document.querySelector('[class*="dc-converter-widget"]');
 
@@ -432,4 +432,11 @@ const { ietf } = getLocale(locales);
     const { default: geoPhoneNumber } = await import('./geo-phoneNumber.js');
     geoPhoneNumber();
   }
+}
+
+loadPage();
+
+(async function loadDa() {
+  if (!new URL(window.location.href).searchParams.get('dapreview')) return;
+  import('https://da.live/scripts/dapreview.js').then(({ default: daPreview }) => daPreview(loadPage));
 }());
