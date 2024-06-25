@@ -7,7 +7,7 @@ indices:
     - '/sign/**'
     exclude:
     - '/dc-shared/**'
-    target: /dc-shared/assets/query-index.xlsx
+    target: /dc-shared/assets/query-index.json
     properties:
       title:
         select: head > meta[property="og:title"]
@@ -35,7 +35,7 @@ indices:
       - '/de/sign/**'
     exclude:
       - '/de/dc-shared/*'
-    target: /de/dc-shared/assets/query-index.xlsx
+    target: /de/dc-shared/assets/query-index.json
 
   fr:
     <<: *def
@@ -44,7 +44,7 @@ indices:
       - '/fr/sign/**'
     exclude:
       - '/fr/dc-shared/**'
-    target: /fr/dc-shared/assets/query-index.xlsx
+    target: /fr/dc-shared/assets/query-index.json
     
   ar:
     <<: *def
@@ -53,7 +53,7 @@ indices:
       - '/ar/sign/**'
     exclude:
       - '/ar/dc-shared/*'
-    target: /ar/dc-shared/assets/query-index.xlsx
+    target: /ar/dc-shared/assets/query-index.json
 
   br:
     <<: *def
@@ -62,7 +62,7 @@ indices:
       - '/br/sign/**'
     exclude:
       - '/br/dc-shared/*'
-    target: /br/dc-shared/assets/query-index.xlsx
+    target: /br/dc-shared/assets/query-index.json
 
   ca:
     <<: *def
@@ -71,7 +71,7 @@ indices:
       - '/ca/sign/**'
     exclude:
       - '/ca/dc-shared/*'
-    target: /ca/dc-shared/assets/query-index.xlsx
+    target: /ca/dc-shared/assets/query-index.json
  
   ca_fr:
     <<: *def
@@ -80,7 +80,7 @@ indices:
       - '/ca_fr/sign/**'
     exclude:
       - '/ca_fr/dc-shared/*'
-    target: /ca_fr/dc-shared/assets/query-index.xlsx
+    target: /ca_fr/dc-shared/assets/query-index.json
  
   cl:
     <<: *def
@@ -89,7 +89,7 @@ indices:
       - '/cl/sign/**'
     exclude:
       - '/cl/dc-shared/*'
-    target: /cl/dc-shared/assets/query-index.xlsx
+    target: /cl/dc-shared/assets/query-index.json
  
   co:
     <<: *def
@@ -98,7 +98,7 @@ indices:
       - '/co/sign/**'
     exclude:
       - '/co/dc-shared/*'
-    target: /co/dc-shared/assets/query-index.xlsx
+    target: /co/dc-shared/assets/query-index.json
  
   la:
     <<: *def
@@ -107,7 +107,7 @@ indices:
       - '/la/sign/**'
     exclude:
       - '/la/dc-shared/*'
-    target: /la/dc-shared/assets/query-index.xlsx
+    target: /la/dc-shared/assets/query-index.json
  
   mx:
     <<: *def
@@ -116,7 +116,7 @@ indices:
       - '/mx/sign/**'
     exclude:
       - '/mx/dc-shared/*'
-    target: /mx/dc-shared/assets/query-index.xlsx
+    target: /mx/dc-shared/assets/query-index.json
  
   pe:
     <<: *def
@@ -125,7 +125,7 @@ indices:
       - '/pe/sign/**'
     exclude:
       - '/pe/dc-shared/*'
-    target: /pe/dc-shared/assets/query-index.xlsx
+    target: /pe/dc-shared/assets/query-index.json
  
   africa:
     <<: *def
@@ -134,7 +134,7 @@ indices:
       - '/africa/sign/**'
     exclude:
       - '/africa/dc-shared/*'
-    target: /africa/dc-shared/assets/query-index.xlsx
+    target: /africa/dc-shared/assets/query-index.json
  
   be_fr:
     <<: *def
@@ -143,7 +143,7 @@ indices:
       - '/be_fr/sign/**'
     exclude:
       - '/be_fr/dc-shared/*'
-    target: /be_fr/dc-shared/assets/query-index.xlsx
+    target: /be_fr/dc-shared/assets/query-index.json
  
   be_en:
     <<: *def
@@ -152,7 +152,7 @@ indices:
       - '/be_en/sign/**'
     exclude:
       - '/be_en/dc-shared/*'
-    target: /be_en/dc-shared/assets/query-index.xlsx
+    target: /be_en/dc-shared/assets/query-index.json
  
   be_nl:
     <<: *def
@@ -161,7 +161,7 @@ indices:
       - '/be_nl/sign/**'
     exclude:
       - '/be_nl/dc-shared/*'
-    target: /be_nl/dc-shared/assets/query-index.xlsx
+    target: /be_nl/dc-shared/assets/query-index.json
  
   cy_en:
     <<: *def
@@ -170,7 +170,7 @@ indices:
       - '/cy_en/sign/**'
     exclude:
       - '/cy_en/dc-shared/*'
-    target: /cy_en/dc-shared/assets/query-index.xlsx
+    target: /cy_en/dc-shared/assets/query-index.json
  
   dk:
     <<: *def
@@ -179,7 +179,7 @@ indices:
       - '/dk/sign/**'
     exclude:
       - '/dk/dc-shared/*'
-    target: /dk/dc-shared/assets/query-index.xlsx
+    target: /dk/dc-shared/assets/query-index.json
  
   ee:
     <<: *def
@@ -188,7 +188,7 @@ indices:
       - '/ee/sign/**'
     exclude:
       - '/ee/dc-shared/*'
-    target: /ee/dc-shared/assets/query-index.xlsx
+    target: /ee/dc-shared/assets/query-index.json
  
   es:
     <<: *def
@@ -197,7 +197,7 @@ indices:
       - '/es/sign/**'
     exclude:
       - '/es/dc-shared/*'
-    target: /es/dc-shared/assets/query-index.xlsx
+    target: /es/dc-shared/assets/query-index.json
  
   gr_en:
     <<: *def
@@ -206,7 +206,7 @@ indices:
       - '/gr_en/sign/**'
     exclude:
       - '/gr_en/dc-shared/*'
-    target: /gr_en/dc-shared/assets/query-index.xlsx
+    target: /gr_en/dc-shared/assets/query-index.json
  
   ie:
     <<: *def
@@ -215,7 +215,7 @@ indices:
       - '/ie/sign/**'
     exclude:
       - '/ie/dc-shared/*'
-    target: /ie/dc-shared/assets/query-index.xlsx
+    target: /ie/dc-shared/assets/query-index.json
  
   il_en:
     <<: *def
@@ -224,7 +224,7 @@ indices:
       - '/il_en/sign/**'
     exclude:
       - '/il_en/dc-shared/*'
-    target: /il_en/dc-shared/assets/query-index.xlsx
+    target: /il_en/dc-shared/assets/query-index.json
  
   it:
     <<: *def
@@ -233,7 +233,7 @@ indices:
       - '/it/sign/**'
     exclude:
       - '/it/dc-shared/*'
-    target: /it/dc-shared/assets/query-index.xlsx
+    target: /it/dc-shared/assets/query-index.json
  
   lv:
     <<: *def
@@ -242,7 +242,7 @@ indices:
       - '/lv/sign/**'
     exclude:
       - '/lv/dc-shared/*'
-    target: /lv/dc-shared/assets/query-index.xlsx
+    target: /lv/dc-shared/assets/query-index.json
  
   lt:
     <<: *def
@@ -251,7 +251,7 @@ indices:
       - '/lt/sign/**'
     exclude:
       - '/lt/dc-shared/*'
-    target: /lt/dc-shared/assets/query-index.xlsx
+    target: /lt/dc-shared/assets/query-index.json
  
   lu_de:
     <<: *def
@@ -260,7 +260,7 @@ indices:
       - '/lu_de/sign/**'
     exclude:
       - '/lu_de/dc-shared/*'
-    target: /lu_de/dc-shared/assets/query-index.xlsx
+    target: /lu_de/dc-shared/assets/query-index.json
  
   lu_en:
     <<: *def
@@ -269,7 +269,7 @@ indices:
       - '/lu_en/sign/**'
     exclude:
       - '/lu_en/dc-shared/*'
-    target: /lu_en/dc-shared/assets/query-index.xlsx
+    target: /lu_en/dc-shared/assets/query-index.json
  
   lu_fr:
     <<: *def
@@ -278,7 +278,7 @@ indices:
       - '/lu_fr/sign/**'
     exclude:
       - '/lu_fr/dc-shared/*'
-    target: /lu_fr/dc-shared/assets/query-index.xlsx
+    target: /lu_fr/dc-shared/assets/query-index.json
  
   hu:
     <<: *def
@@ -287,7 +287,7 @@ indices:
       - '/hu/sign/**'
     exclude:
       - '/hu/dc-shared/*'
-    target: /hu/dc-shared/assets/query-index.xlsx
+    target: /hu/dc-shared/assets/query-index.json
  
   mt:
     <<: *def
@@ -296,7 +296,7 @@ indices:
       - '/mt/sign/**'
     exclude:
       - '/mt/dc-shared/*'
-    target: /mt/dc-shared/assets/query-index.xlsx
+    target: /mt/dc-shared/assets/query-index.json
  
   mena_en:
     <<: *def
@@ -305,7 +305,7 @@ indices:
       - '/mena_en/sign/**'
     exclude:
       - '/mena_en/dc-shared/*'
-    target: /mena_en/dc-shared/assets/query-index.xlsx
+    target: /mena_en/dc-shared/assets/query-index.json
  
   nl:
     <<: *def
@@ -314,7 +314,7 @@ indices:
       - '/nl/sign/**'
     exclude:
       - '/nl/dc-shared/*'
-    target: /nl/dc-shared/assets/query-index.xlsx
+    target: /nl/dc-shared/assets/query-index.json
  
   no:
     <<: *def
@@ -323,7 +323,7 @@ indices:
       - '/no/sign/**'
     exclude:
       - '/no/dc-shared/*'
-    target: /no/dc-shared/assets/query-index.xlsx
+    target: /no/dc-shared/assets/query-index.json
  
   pl:
     <<: *def
@@ -332,7 +332,7 @@ indices:
       - '/pl/sign/**'
     exclude:
       - '/pl/dc-shared/*'
-    target: /pl/dc-shared/assets/query-index.xlsx
+    target: /pl/dc-shared/assets/query-index.json
  
   pt:
     <<: *def
@@ -341,7 +341,7 @@ indices:
       - '/pt/sign/**'
     exclude:
       - '/pt/dc-shared/*'
-    target: /pt/dc-shared/assets/query-index.xlsx
+    target: /pt/dc-shared/assets/query-index.json
  
   ro:
     <<: *def
@@ -350,7 +350,7 @@ indices:
       - '/ro/sign/**'
     exclude:
       - '/ro/dc-shared/*'
-    target: /ro/dc-shared/assets/query-index.xlsx
+    target: /ro/dc-shared/assets/query-index.json
  
   sa_en:
     <<: *def
@@ -359,7 +359,7 @@ indices:
       - '/sa_en/sign/**'
     exclude:
       - '/sa_en/dc-shared/*'
-    target: /sa_en/dc-shared/assets/query-index.xlsx
+    target: /sa_en/dc-shared/assets/query-index.json
  
   ch_de:
     <<: *def
@@ -368,7 +368,7 @@ indices:
       - '/ch_de/sign/**'
     exclude:
       - '/ch_de/dc-shared/*'
-    target: /ch_de/dc-shared/assets/query-index.xlsx
+    target: /ch_de/dc-shared/assets/query-index.json
  
   si:
     <<: *def
@@ -377,7 +377,7 @@ indices:
       - '/si/sign/**'
     exclude:
       - '/si/dc-shared/*'
-    target: /si/dc-shared/assets/query-index.xlsx
+    target: /si/dc-shared/assets/query-index.json
  
   sk:
     <<: *def
@@ -386,7 +386,7 @@ indices:
       - '/sk/sign/**'
     exclude:
       - '/sk/dc-shared/*'
-    target: /sk/dc-shared/assets/query-index.xlsx
+    target: /sk/dc-shared/assets/query-index.json
  
   ch_fr:
     <<: *def
@@ -395,7 +395,7 @@ indices:
       - '/ch_fr/sign/**'
     exclude:
       - '/ch_fr/dc-shared/*'
-    target: /ch_fr/dc-shared/assets/query-index.xlsx
+    target: /ch_fr/dc-shared/assets/query-index.json
  
   fi:
     <<: *def
@@ -404,7 +404,7 @@ indices:
       - '/fi/sign/**'
     exclude:
       - '/fi/dc-shared/*'
-    target: /fi/dc-shared/assets/query-index.xlsx
+    target: /fi/dc-shared/assets/query-index.json
  
   se:
     <<: *def
@@ -413,7 +413,7 @@ indices:
       - '/se/sign/**'
     exclude:
       - '/se/dc-shared/*'
-    target: /se/dc-shared/assets/query-index.xlsx
+    target: /se/dc-shared/assets/query-index.json
  
   ch_it:
     <<: *def
@@ -422,7 +422,7 @@ indices:
       - '/ch_it/sign/**'
     exclude:
       - '/ch_it/dc-shared/*'
-    target: /ch_it/dc-shared/assets/query-index.xlsx
+    target: /ch_it/dc-shared/assets/query-index.json
  
   tr:
     <<: *def
@@ -431,7 +431,7 @@ indices:
       - '/tr/sign/**'
     exclude:
       - '/tr/dc-shared/*'
-    target: /tr/dc-shared/assets/query-index.xlsx
+    target: /tr/dc-shared/assets/query-index.json
  
   ae_en:
     <<: *def
@@ -440,7 +440,7 @@ indices:
       - '/ae_en/sign/**'
     exclude:
       - '/ae_en/dc-shared/*'
-    target: /ae_en/dc-shared/assets/query-index.xlsx
+    target: /ae_en/dc-shared/assets/query-index.json
  
   uk:
     <<: *def
@@ -449,7 +449,7 @@ indices:
       - '/uk/sign/**'
     exclude:
       - '/uk/dc-shared/*'
-    target: /uk/dc-shared/assets/query-index.xlsx
+    target: /uk/dc-shared/assets/query-index.json
  
   at:
     <<: *def
@@ -458,7 +458,7 @@ indices:
       - '/at/sign/**'
     exclude:
       - '/at/dc-shared/*'
-    target: /at/dc-shared/assets/query-index.xlsx
+    target: /at/dc-shared/assets/query-index.json
  
   cz:
     <<: *def
@@ -467,7 +467,7 @@ indices:
       - '/cz/sign/**'
     exclude:
       - '/cz/dc-shared/*'
-    target: /cz/dc-shared/assets/query-index.xlsx
+    target: /cz/dc-shared/assets/query-index.json
  
   bg:
     <<: *def
@@ -476,7 +476,7 @@ indices:
       - '/bg/sign/**'
     exclude:
       - '/bg/dc-shared/*'
-    target: /bg/dc-shared/assets/query-index.xlsx
+    target: /bg/dc-shared/assets/query-index.json
  
   ua:
     <<: *def
@@ -485,7 +485,7 @@ indices:
       - '/ua/sign/**'
     exclude:
       - '/ua/dc-shared/*'
-    target: /ua/dc-shared/assets/query-index.xlsx
+    target: /ua/dc-shared/assets/query-index.json
  
  
   ae_ar:
@@ -495,7 +495,7 @@ indices:
       - '/ae_ar/sign/**'
     exclude:
       - '/ae_ar/dc-shared/*'
-    target: /ae_ar/dc-shared/assets/query-index.xlsx
+    target: /ae_ar/dc-shared/assets/query-index.json
  
   mena_ar:
     <<: *def
@@ -504,7 +504,7 @@ indices:
       - '/mena_ar/sign/**'
     exclude:
       - '/mena_ar/dc-shared/*'
-    target: /mena_ar/dc-shared/assets/query-index.xlsx
+    target: /mena_ar/dc-shared/assets/query-index.json
  
   sa_ar:
     <<: *def
@@ -513,7 +513,7 @@ indices:
       - '/sa_ar/sign/**'
     exclude:
       - '/sa_ar/dc-shared/*'
-    target: /sa_ar/dc-shared/assets/query-index.xlsx
+    target: /sa_ar/dc-shared/assets/query-index.json
  
   au:
     <<: *def
@@ -522,7 +522,7 @@ indices:
       - '/au/sign/**'
     exclude:
       - '/au/dc-shared/*'
-    target: /au/dc-shared/assets/query-index.xlsx
+    target: /au/dc-shared/assets/query-index.json
  
   hk_en:
     <<: *def
@@ -531,7 +531,7 @@ indices:
       - '/hk_en/sign/**'
     exclude:
       - '/hk_en/dc-shared/*'
-    target: /hk_en/dc-shared/assets/query-index.xlsx
+    target: /hk_en/dc-shared/assets/query-index.json
  
   in:
     <<: *def
@@ -540,7 +540,7 @@ indices:
       - '/in/sign/**'
     exclude:
       - '/in/dc-shared/*'
-    target: /in/dc-shared/assets/query-index.xlsx
+    target: /in/dc-shared/assets/query-index.json
  
   id_id:
     <<: *def
@@ -549,7 +549,7 @@ indices:
       - '/id_id/sign/**'
     exclude:
       - '/id_id/dc-shared/*'
-    target: /id_id/dc-shared/assets/query-index.xlsx
+    target: /id_id/dc-shared/assets/query-index.json
  
   id_en:
     <<: *def
@@ -558,7 +558,7 @@ indices:
       - '/id_en/sign/**'
     exclude:
       - '/id_en/dc-shared/*'
-    target: /id_en/dc-shared/assets/query-index.xlsx
+    target: /id_en/dc-shared/assets/query-index.json
  
   my_ms:
     <<: *def
@@ -567,7 +567,7 @@ indices:
       - '/my_ms/sign/**'
     exclude:
       - '/my_ms/dc-shared/*'
-    target: /my_ms/dc-shared/assets/query-index.xlsx
+    target: /my_ms/dc-shared/assets/query-index.json
  
   my_en:
     <<: *def
@@ -576,7 +576,7 @@ indices:
       - '/my_en/sign/**'
     exclude:
       - '/my_en/dc-shared/*'
-    target: /my_en/dc-shared/assets/query-index.xlsx
+    target: /my_en/dc-shared/assets/query-index.json
  
   nz:
     <<: *def
@@ -585,7 +585,7 @@ indices:
       - '/nz/sign/**'
     exclude:
       - '/nz/dc-shared/*'
-    target: /nz/dc-shared/assets/query-index.xlsx
+    target: /nz/dc-shared/assets/query-index.json
  
   ph_en:
     <<: *def
@@ -594,7 +594,7 @@ indices:
       - '/ph_en/sign/**'
     exclude:
       - '/ph_en/dc-shared/*'
-    target: /ph_en/dc-shared/assets/query-index.xlsx
+    target: /ph_en/dc-shared/assets/query-index.json
  
   ph_fil:
     <<: *def
@@ -603,7 +603,7 @@ indices:
       - '/ph_fil/sign/**'
     exclude:
       - '/ph_fil/dc-shared/*'
-    target: /ph_fil/dc-shared/assets/query-index.xlsx
+    target: /ph_fil/dc-shared/assets/query-index.json
  
   sg:
     <<: *def
@@ -612,7 +612,7 @@ indices:
       - '/sg/sign/**'
     exclude:
       - '/sg/dc-shared/*'
-    target: /sg/dc-shared/assets/query-index.xlsx
+    target: /sg/dc-shared/assets/query-index.json
  
   th_en:
     <<: *def
@@ -621,7 +621,7 @@ indices:
       - '/th_en/sign/**'
     exclude:
       - '/th_en/dc-shared/*'
-    target: /th_en/dc-shared/assets/query-index.xlsx
+    target: /th_en/dc-shared/assets/query-index.json
  
   in_hi:
     <<: *def
@@ -630,7 +630,7 @@ indices:
       - '/in_hi/sign/**'
     exclude:
       - '/in_hi/dc-shared/*'
-    target: /in_hi/dc-shared/assets/query-index.xlsx
+    target: /in_hi/dc-shared/assets/query-index.json
  
   th_th:
     <<: *def
@@ -639,7 +639,7 @@ indices:
       - '/th_th/sign/**'
     exclude:
       - '/th_th/dc-shared/*'
-    target: /th_th/dc-shared/assets/query-index.xlsx
+    target: /th_th/dc-shared/assets/query-index.json
  
   cn:
     <<: *def
@@ -648,7 +648,7 @@ indices:
       - '/cn/sign/**'
     exclude:
       - '/cn/dc-shared/*'
-    target: /cn/dc-shared/assets/query-index.xlsx
+    target: /cn/dc-shared/assets/query-index.json
  
   hk_zh:
     <<: *def
@@ -657,7 +657,7 @@ indices:
       - '/hk_zh/sign/**'
     exclude:
       - '/hk_zh/dc-shared/*'
-    target: /hk_zh/dc-shared/assets/query-index.xlsx
+    target: /hk_zh/dc-shared/assets/query-index.json
  
   tw:
     <<: *def
@@ -666,7 +666,7 @@ indices:
       - '/tw/sign/**'
     exclude:
       - '/tw/dc-shared/*'
-    target: /tw/dc-shared/assets/query-index.xlsx
+    target: /tw/dc-shared/assets/query-index.json
  
   jp:
     <<: *def
@@ -675,7 +675,7 @@ indices:
       - '/jp/sign/**'
     exclude:
       - '/jp/dc-shared/*'
-    target: /jp/dc-shared/assets/query-index.xlsx
+    target: /jp/dc-shared/assets/query-index.json
  
   kr:
     <<: *def
@@ -684,7 +684,7 @@ indices:
       - '/kr/sign/**'
     exclude:
       - '/kr/dc-shared/*'
-    target: /kr/dc-shared/assets/query-index.xlsx
+    target: /kr/dc-shared/assets/query-index.json
  
   za:
     <<: *def
@@ -693,7 +693,7 @@ indices:
       - '/za/sign/**'
     exclude:
       - '/za/dc-shared/*'
-    target: /za/dc-shared/assets/query-index.xlsx
+    target: /za/dc-shared/assets/query-index.json
  
   ng:
     <<: *def
@@ -702,7 +702,7 @@ indices:
       - '/ng/sign/**'
     exclude:
       - '/ng/dc-shared/*'
-    target: /ng/dc-shared/assets/query-index.xlsx
+    target: /ng/dc-shared/assets/query-index.json
  
   cr:
     <<: *def
@@ -711,7 +711,7 @@ indices:
       - '/cr/sign/**'
     exclude:
       - '/cr/dc-shared/*'
-    target: /cr/dc-shared/assets/query-index.xlsx
+    target: /cr/dc-shared/assets/query-index.json
  
   ec:
     <<: *def
@@ -720,7 +720,7 @@ indices:
       - '/ec/sign/**'
     exclude:
       - '/ec/dc-shared/*'
-    target: /ec/dc-shared/assets/query-index.xlsx
+    target: /ec/dc-shared/assets/query-index.json
  
   pr:
     <<: *def
@@ -729,7 +729,7 @@ indices:
       - '/pr/sign/**'
     exclude:
       - '/pr/dc-shared/*'
-    target: /pr/dc-shared/assets/query-index.xlsx
+    target: /pr/dc-shared/assets/query-index.json
  
   gt:
     <<: *def
@@ -738,7 +738,7 @@ indices:
       - '/gt/sign/**'
     exclude:
       - '/gt/dc-shared/*'
-    target: /gt/dc-shared/assets/query-index.xlsx
+    target: /gt/dc-shared/assets/query-index.json
  
   eg_ar:
     <<: *def
@@ -747,7 +747,7 @@ indices:
       - '/eg_ar/sign/**'
     exclude:
       - '/eg_ar/dc-shared/*'
-    target: /eg_ar/dc-shared/assets/query-index.xlsx
+    target: /eg_ar/dc-shared/assets/query-index.json
  
   kw_ar:
     <<: *def
@@ -756,7 +756,7 @@ indices:
       - '/kw_ar/sign/**'
     exclude:
       - '/kw_ar/dc-shared/*'
-    target: /kw_ar/dc-shared/assets/query-index.xlsx
+    target: /kw_ar/dc-shared/assets/query-index.json
  
   qa_ar:
     <<: *def
@@ -765,7 +765,7 @@ indices:
       - '/qa_ar/sign/**'
     exclude:
       - '/qa_ar/dc-shared/*'
-    target: /qa_ar/dc-shared/assets/query-index.xlsx
+    target: /qa_ar/dc-shared/assets/query-index.json
  
   eg_en:
     <<: *def
@@ -774,7 +774,7 @@ indices:
       - '/eg_en/sign/**'
     exclude:
       - '/eg_en/dc-shared/*'
-    target: /eg_en/dc-shared/assets/query-index.xlsx
+    target: /eg_en/dc-shared/assets/query-index.json
  
   kw_en:
     <<: *def
@@ -783,7 +783,7 @@ indices:
       - '/kw_en/sign/**'
     exclude:
       - '/kw_en/dc-shared/*'
-    target: /kw_en/dc-shared/assets/query-index.xlsx
+    target: /kw_en/dc-shared/assets/query-index.json
  
   qa_en:
     <<: *def
@@ -792,7 +792,7 @@ indices:
       - '/qa_en/sign/**'
     exclude:
       - '/qa_en/dc-shared/*'
-    target: /qa_en/dc-shared/assets/query-index.xlsx
+    target: /qa_en/dc-shared/assets/query-index.json
  
   gr_el:
     <<: *def
@@ -801,7 +801,7 @@ indices:
       - '/gr_el/sign/**'
     exclude:
       - '/gr_el/dc-shared/*'
-    target: /gr_el/dc-shared/assets/query-index.xlsx
+    target: /gr_el/dc-shared/assets/query-index.json
     
   vn_en:
     <<: *def
@@ -810,7 +810,7 @@ indices:
       - '/vn_en/sign/**'
     exclude:
       - '/vn_en/dc-shared/*'
-    target: /vn_en/dc-shared/assets/query-index.xlsx
+    target: /vn_en/dc-shared/assets/query-index.json
     
   vn_vi:
     <<: *def
@@ -819,4 +819,4 @@ indices:
       - '/vn_vi/sign/**'
     exclude:
       - '/vn_vi/dc-shared/*'
-    target: /vn_vi/dc-shared/assets/query-index.xlsx  
+    target: /vn_vi/dc-shared/assets/query-index.json  
