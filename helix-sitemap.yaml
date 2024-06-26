@@ -56,23 +56,23 @@ sitemaps:
         destination: /cl/dc-shared/assets/sitemap.xml
         hreflang: es-CL
 
-      # jp:
-      #   source: /jp/dc-shared/assets/query-index.json
-      #   alternate: /jp/{path}.html
-      #   destination: /jp/dc-shared/assets/sitemap.xml
-      #   hreflang: ja-JP
+      jp:
+        source: /jp/dc-shared/assets/query-index.json
+        alternate: /jp/{path}
+        destination: /jp/dc-shared/assets/sitemap.xml
+        hreflang: ja-JP
         
-      # uk:
-      #   source: /uk/dc-shared/assets/query-index.json
-      #   alternate: /uk/{path}.html
-      #   destination: /uk/dc-shared/assets/sitemap.xml
-      #   hreflang: en-GB
+      uk:
+        source: /uk/dc-shared/assets/query-index.json
+        alternate: /uk/{path}
+        destination: /uk/dc-shared/assets/sitemap.xml
+        hreflang: en-GB
 
-      # co:
-      #   source: /co/dc-shared/assets/query-index.json
-      #   alternate: /co/{path}.html
-      #   destination: /co/dc-shared/assets/sitemap.xml
-      #   hreflang: es-CO
+      co:
+        source: /co/dc-shared/assets/query-index.json
+        alternate: /co/{path}
+        destination: /co/dc-shared/assets/sitemap.xml
+        hreflang: es-CO
 
       # la:
       #   source: /la/dc-shared/assets/query-index.json
