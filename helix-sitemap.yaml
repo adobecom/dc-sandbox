@@ -16,25 +16,25 @@ sitemaps:
 
       de:
         source: /de/dc-shared/assets/query-index.json
-        alternate: /de/{path}.html
+        alternate: /de/{path}
         destination: /de/dc-shared/assets/sitemap.xml
         hreflang: de-DE
 
       fr:
         source: /fr/dc-shared/assets/query-index.json
-        alternate: /fr/{path}.html
+        alternate: /fr/{path}
         destination: /fr/dc-shared/assets/sitemap.xml
         hreflang: fr-FR
 
       ar:
         source: /ar/dc-shared/assets/query-index.json
-        alternate: /ar/{path}.html
+        alternate: /ar/{path}
         destination: /ar/dc-shared/assets/sitemap.xml
         hreflang: es-AR
 
       br:
         source: /br/dc-shared/assets/query-index.json
-        alternate: /br/{path}.html
+        alternate: /br/{path}
         destination: /br/dc-shared/assets/sitemap.xml
         hreflang: pt-BR
 
