@@ -14,17 +14,17 @@ sitemaps:
         destination: /dc-shared/assets/sitemap.xml
         hreflang: en-US
 
-      # de:
-      #   source: /de/dc-shared/assets/query-index.json
-      #   alternate: /de/{path}.html
-      #   destination: /de/dc-shared/assets/sitemap.xml
-      #   hreflang: de-DE
+      de:
+        source: /de/dc-shared/assets/query-index.json
+        alternate: /de/{path}.html
+        destination: /de/dc-shared/assets/sitemap.xml
+        hreflang: de-DE
 
-      # fr:
-      #   source: /fr/dc-shared/assets/query-index.json
-      #   alternate: /fr/{path}.html
-      #   destination: /fr/dc-shared/assets/sitemap.xml
-      #   hreflang: fr-FR
+      fr:
+        source: /fr/dc-shared/assets/query-index.json
+        alternate: /fr/{path}.html
+        destination: /fr/dc-shared/assets/sitemap.xml
+        hreflang: fr-FR
 
       # ar:
       #   source: /ar/dc-shared/assets/query-index.json
