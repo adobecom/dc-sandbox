@@ -74,37 +74,37 @@ sitemaps:
         destination: /co/dc-shared/assets/sitemap.xml
         hreflang: es-CO
 
-      # la:
-      #   source: /la/dc-shared/assets/query-index.json
-      #   alternate: /la/{path}.html
-      #   destination: /la/dc-shared/assets/sitemap.xml
-      #   hreflang:
-      #     - es-PA
-      #     - es-SV
-      #     - es-VE
+      la:
+        source: /la/dc-shared/assets/query-index.json
+        alternate: /la/{path}
+        destination: /la/dc-shared/assets/sitemap.xml
+        hreflang:
+          - es-PA
+          - es-SV
+          - es-VE
 
-      # mx:
-      #   source: /mx/dc-shared/assets/query-index.json
-      #   alternate: /mx/{path}.html
-      #   destination: /mx/dc-shared/assets/sitemap.xml
-      #   hreflang: es-MX
+      mx:
+        source: /mx/dc-shared/assets/query-index.json
+        alternate: /mx/{path}
+        destination: /mx/dc-shared/assets/sitemap.xml
+        hreflang: es-MX
 
-      # pe:
-      #   source: /pe/dc-shared/assets/query-index.json
-      #   alternate: /pe/{path}.html
-      #   destination: /pe/dc-shared/assets/sitemap.xml
-      #   hreflang: es-PE
+      pe:
+        source: /pe/dc-shared/assets/query-index.json
+        alternate: /pe/{path}
+        destination: /pe/dc-shared/assets/sitemap.xml
+        hreflang: es-PE
 
-      # africa:
-      #   source: /africa/dc-shared/assets/query-index.json
-      #   alternate: /africa/{path}.html
-      #   destination: /africa/dc-shared/assets/sitemap.xml
-      #   hreflang:
-      #     - en-BJ
-      #     - en-CM
-      #     - en-MA
-      #     - en-TG
-      #     - en-TN
+      africa:
+        source: /africa/dc-shared/assets/query-index.json
+        alternate: /africa/{path}
+        destination: /africa/dc-shared/assets/sitemap.xml
+        hreflang:
+          - en-BJ
+          - en-CM
+          - en-MA
+          - en-TG
+          - en-TN
 
       # be_fr:
       #   source: /be_fr/dc-shared/assets/query-index.json
