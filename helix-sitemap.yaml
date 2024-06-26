@@ -106,35 +106,35 @@ sitemaps:
           - en-TG
           - en-TN
 
-      # be_fr:
-      #   source: /be_fr/dc-shared/assets/query-index.json
-      #   alternate: /be_fr/{path}.html
-      #   destination: /be_fr/dc-shared/assets/sitemap.xml
-      #   hreflang: fr-BE
+      be_fr:
+        source: /be_fr/dc-shared/assets/query-index.json
+        alternate: /be_fr/{path}
+        destination: /be_fr/dc-shared/assets/sitemap.xml
+        hreflang: fr-BE
 
-      # be_en:
-      #   source: /be_en/dc-shared/assets/query-index.json
-      #   alternate: /be_en/{path}.html
-      #   destination: /be_en/dc-shared/assets/sitemap.xml
-      #   hreflang: en-BE
+      be_en:
+        source: /be_en/dc-shared/assets/query-index.json
+        alternate: /be_en/{path}
+        destination: /be_en/dc-shared/assets/sitemap.xml
+        hreflang: en-BE
 
-      # be_nl:
-      #   source: /be_nl/dc-shared/assets/query-index.json
-      #   alternate: /be_nl/{path}.html
-      #   destination: /be_nl/dc-shared/assets/sitemap.xml
-      #   hreflang: nl-BE
+      be_nl:
+        source: /be_nl/dc-shared/assets/query-index.json
+        alternate: /be_nl/{path}
+        destination: /be_nl/dc-shared/assets/sitemap.xml
+        hreflang: nl-BE
 
-      # dk:
-      #   source: /dk/dc-shared/assets/query-index.json
-      #   alternate: /dk/{path}.html
-      #   destination: /dk/dc-shared/assets/sitemap.xml
-      #   hreflang: da-DK
+      dk:
+        source: /dk/dc-shared/assets/query-index.json
+        alternate: /dk/{path}
+        destination: /dk/dc-shared/assets/sitemap.xml
+        hreflang: da-DK
 
-      # ee:
-      #   source: /ee/dc-shared/assets/query-index.json
-      #   alternate: /ee/{path}.html
-      #   destination: /ee/dc-shared/assets/sitemap.xml
-      #   hreflang: et-EE
+      ee:
+        source: /ee/dc-shared/assets/query-index.json
+        alternate: /ee/{path}
+        destination: /ee/dc-shared/assets/sitemap.xml
+        hreflang: et-EE
 
       # es:
       #   source: /es/dc-shared/assets/query-index.json
