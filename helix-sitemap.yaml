@@ -44,11 +44,11 @@ sitemaps:
         destination: /ca/dc-shared/assets/sitemap.xml
         hreflang: en-CA
 
-      ca_fr:
-        source: /ca_fr/dc-shared/assets/query-index.json
-        alternate: /ca_fr/{path}
-        destination: /ca_fr/dc-shared/assets/sitemap.xml
-        hreflang: fr-CA
+      # ca_fr:
+      #   source: /ca_fr/dc-shared/assets/query-index.json
+      #   alternate: /ca_fr/{path}
+      #   destination: /ca_fr/dc-shared/assets/sitemap.xml
+      #   hreflang: fr-CA
 
       cl:
         source: /cl/dc-shared/assets/query-index.json
