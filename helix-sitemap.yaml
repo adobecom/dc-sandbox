@@ -166,41 +166,41 @@ sitemaps:
         destination: /it/dc-shared/assets/sitemap.xml
         hreflang: it-IT
 
-      # lv:
-      #   source: /lv/dc-shared/assets/query-index.json
-      #   alternate: /lv/{path}.html
-      #   destination: /lv/dc-shared/assets/sitemap.xml
-      #   hreflang: lv-LV
+      lv:
+        source: /lv/dc-shared/assets/query-index.json
+        alternate: /lv/{path}
+        destination: /lv/dc-shared/assets/sitemap.xml
+        hreflang: lv-LV
 
-      # lt:
-      #   source: /lt/dc-shared/assets/query-index.json
-      #   alternate: /lt/{path}.html
-      #   destination: /lt/dc-shared/assets/sitemap.xml
-      #   hreflang: lt-LT
+      lt:
+        source: /lt/dc-shared/assets/query-index.json
+        alternate: /lt/{path}
+        destination: /lt/dc-shared/assets/sitemap.xml
+        hreflang: lt-LT
 
-      # lu_de:
-      #   source: /lu_de/dc-shared/assets/query-index.json
-      #   alternate: /lu_de/{path}.html
-      #   destination: /lu_de/dc-shared/assets/sitemap.xml
-      #   hreflang: de-LU
+      lu_de:
+        source: /lu_de/dc-shared/assets/query-index.json
+        alternate: /lu_de/{path}
+        destination: /lu_de/dc-shared/assets/sitemap.xml
+        hreflang: de-LU
 
-      # lu_en:
-      #   source: /lu_en/dc-shared/assets/query-index.json
-      #   alternate: /lu_en/{path}.html
-      #   destination: /lu_en/dc-shared/assets/sitemap.xml
-      #   hreflang: en-LU
+      lu_en:
+        source: /lu_en/dc-shared/assets/query-index.json
+        alternate: /lu_en/{path}
+        destination: /lu_en/dc-shared/assets/sitemap.xml
+        hreflang: en-LU
 
-      # lu_fr:
-      #   source: /lu_fr/dc-shared/assets/query-index.json
-      #   alternate: /lu_fr/{path}.html
-      #   destination: /lu_fr/dc-shared/assets/sitemap.xml
-      #   hreflang: fr-LU
+      lu_fr:
+        source: /lu_fr/dc-shared/assets/query-index.json
+        alternate: /lu_fr/{path}
+        destination: /lu_fr/dc-shared/assets/sitemap.xml
+        hreflang: fr-LU
 
-      # hu:
-      #   source: /hu/dc-shared/assets/query-index.json
-      #   alternate: /hu/{path}.html
-      #   destination: /hu/dc-shared/assets/sitemap.xml
-      #   hreflang: hu-HU
+      hu:
+        source: /hu/dc-shared/assets/query-index.json
+        alternate: /hu/{path}
+        destination: /hu/dc-shared/assets/sitemap.xml
+        hreflang: hu-HU
 
       # mena_en:
       #   source: /mena_en/dc-shared/assets/query-index.json
