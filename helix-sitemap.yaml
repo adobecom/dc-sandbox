@@ -350,47 +350,47 @@ sitemaps:
         destination: /ua/dc-shared/assets/sitemap.xml
         hreflang: uk-UA
 
-      # ae_ar:
-      #   source: /ae_ar/dc-shared/assets/query-index.json
-      #   alternate: /ae_ar/{path}.html
-      #   destination: /ae_ar/dc-shared/assets/sitemap.xml
-      #   hreflang: ar-AE
+      ae_ar:
+        source: /ae_ar/dc-shared/assets/query-index.json
+        alternate: /ae_ar/{path}
+        destination: /ae_ar/dc-shared/assets/sitemap.xml
+        hreflang: ar-AE
 
-      # sa_ar:
-      #   source: /sa_ar/dc-shared/assets/query-index.json
-      #   alternate: /sa_ar/{path}.html
-      #   destination: /sa_ar/dc-shared/assets/sitemap.xml
-      #   hreflang: ar-SA
+      sa_ar:
+        source: /sa_ar/dc-shared/assets/query-index.json
+        alternate: /sa_ar/{path}
+        destination: /sa_ar/dc-shared/assets/sitemap.xml
+        hreflang: ar-SA
 
-      # au:
-      #   source: /au/dc-shared/assets/query-index.json
-      #   alternate: /au/{path}.html
-      #   destination: /au/dc-shared/assets/sitemap.xml
-      #   hreflang: en-AU
+      au:
+        source: /au/dc-shared/assets/query-index.json
+        alternate: /au/{path}
+        destination: /au/dc-shared/assets/sitemap.xml
+        hreflang: en-AU
 
-      # hk_en:
-      #   source: /hk_en/dc-shared/assets/query-index.json
-      #   alternate: /hk_en/{path}.html
-      #   destination: /hk_en/dc-shared/assets/sitemap.xml
-      #   hreflang: en-HK
+      hk_en:
+        source: /hk_en/dc-shared/assets/query-index.json
+        alternate: /hk_en/{path}
+        destination: /hk_en/dc-shared/assets/sitemap.xml
+        hreflang: en-HK
 
-      # in:
-      #   source: /in/dc-shared/assets/query-index.json
-      #   alternate: /in/{path}.html
-      #   destination: /in/dc-shared/assets/sitemap.xml
-      #   hreflang: en-IN
+      in:
+        source: /in/dc-shared/assets/query-index.json
+        alternate: /in/{path}
+        destination: /in/dc-shared/assets/sitemap.xml
+        hreflang: en-IN
 
-      # id_id:
-      #   source: /id_id/dc-shared/assets/query-index.json
-      #   alternate: /id_id/{path}.html
-      #   destination: /id_id/dc-shared/assets/sitemap.xml
-      #   hreflang: id-ID
+      id_id:
+        source: /id_id/dc-shared/assets/query-index.json
+        alternate: /id_id/{path}
+        destination: /id_id/dc-shared/assets/sitemap.xml
+        hreflang: id-ID
 
-      # id_en:
-      #   source: /id_en/dc-shared/assets/query-index.json
-      #   alternate: /id_en/{path}.html
-      #   destination: /id_en/dc-shared/assets/sitemap.xml
-      #   hreflang: en-ID
+      id_en:
+        source: /id_en/dc-shared/assets/query-index.json
+        alternate: /id_en/{path}
+        destination: /id_en/dc-shared/assets/sitemap.xml
+        hreflang: en-ID
 
       # my_ms:
       #   source: /my_ms/dc-shared/assets/query-index.json
