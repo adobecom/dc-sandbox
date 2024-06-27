@@ -299,35 +299,35 @@ sitemaps:
         destination: /ch_it/dc-shared/assets/sitemap.xml
         hreflang: it-CH
 
-      # tr:
-      #   source: /tr/dc-shared/assets/query-index.json
-      #   alternate: /tr/{path}.html
-      #   destination: /tr/dc-shared/assets/sitemap.xml
-      #   hreflang: tr-TR
+      tr:
+        source: /tr/dc-shared/assets/query-index.json
+        alternate: /tr/{path}
+        destination: /tr/dc-shared/assets/sitemap.xml
+        hreflang: tr-TR
 
-      # ae_en:
-      #   source: /ae_en/dc-shared/assets/query-index.json
-      #   alternate: /ae_en/{path}.html
-      #   destination: /ae_en/dc-shared/assets/sitemap.xml
-      #   hreflang: en-AE
+      ae_en:
+        source: /ae_en/dc-shared/assets/query-index.json
+        alternate: /ae_en/{path}
+        destination: /ae_en/dc-shared/assets/sitemap.xml
+        hreflang: en-AE
 
-      # at:
-      #   source: /at/dc-shared/assets/query-index.json
-      #   alternate: /at/{path}.html
-      #   destination: /at/dc-shared/assets/sitemap.xml
-      #   hreflang: de-AT
+      at:
+        source: /at/dc-shared/assets/query-index.json
+        alternate: /at/{path}
+        destination: /at/dc-shared/assets/sitemap.xml
+        hreflang: de-AT
 
-      # cz:
-      #   source: /cz/dc-shared/assets/query-index.json
-      #   alternate: /cz/{path}.html
-      #   destination: /cz/dc-shared/assets/sitemap.xml
-      #   hreflang: cs-CZ
+      cz:
+        source: /cz/dc-shared/assets/query-index.json
+        alternate: /cz/{path}
+        destination: /cz/dc-shared/assets/sitemap.xml
+        hreflang: cs-CZ
 
-      # bg:
-      #   source: /bg/dc-shared/assets/query-index.json
-      #   alternate: /bg/{path}.html
-      #   destination: /bg/dc-shared/assets/sitemap.xml
-      #   hreflang: bg-BG
+      bg:
+        source: /bg/dc-shared/assets/query-index.json
+        alternate: /bg/{path}
+        destination: /bg/dc-shared/assets/sitemap.xml
+        hreflang: bg-BG
 
       # cis_ru:
       #   source: /ru/dc-shared/assets/query-index.json
@@ -344,11 +344,11 @@ sitemaps:
       #     - ru-TJ
       #     - ru-UZ
 
-      # ua:
-      #   source: /ua/dc-shared/assets/query-index.json
-      #   alternate: /ua/{path}.html
-      #   destination: /ua/dc-shared/assets/sitemap.xml
-      #   hreflang: uk-UA
+      ua:
+        source: /ua/dc-shared/assets/query-index.json
+        alternate: /ua/{path}
+        destination: /ua/dc-shared/assets/sitemap.xml
+        hreflang: uk-UA
 
       # ae_ar:
       #   source: /ae_ar/dc-shared/assets/query-index.json
