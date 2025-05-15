@@ -1,8 +1,11 @@
 version: 1.0
 
 snow:
-  - id: 545806 # Milo DC
-
+  - id: 570216 # Milo DC
+  - source_path:
+    - exclude:
+      - '.github/**'
+      - 'edgeworkers/**'
 notifications:
   jira:
     default:
@@ -21,6 +24,7 @@ notifications:
           - jmichnow
           - mauchley
           - tsay
+          - joaquinrivero
         labels:
           - "OriginatingProcess=Kodiak"
           - "security"
